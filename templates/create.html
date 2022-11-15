@@ -3,10 +3,16 @@
 {% block content %}
 <h1>新規登録画面</h1>
 <form action="" method="post">
-    <label for="subject_name">科目</label>
+        <label for="title">タイトル</label>
+        <input type="text" name="title">
+        <label for="body">内容</label>
+        <input type="text" name="body">
+        <input type="submit" value="新規登録">
+    
+    <!-- <label for="subject_name">科目</label>
     <input type="text" name="subject_name">
     <label for="category_name">カテゴリー</label>
     <input type="text" name="category_name">
-    <input type="submit" value="登録">
+    <input type="submit" value="登録">  -->
 </form>
 {% endblock %}
